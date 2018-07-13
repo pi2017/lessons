@@ -9,7 +9,6 @@
 class MyFirstClass:
     a = 1
 
+
 obj = MyFirstClass()
 print(type(obj))
-
-
