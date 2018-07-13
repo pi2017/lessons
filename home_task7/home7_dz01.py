@@ -1,6 +1,6 @@
 # Lesson 7
 # WebAcademy
-# ClasAutosalon 
+# ClassAuto
 
 class Auto():
 
