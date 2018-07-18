@@ -9,3 +9,21 @@
 Готово!
 """
 
+import os
+import shutil
+
+cwd = os.getcwd()
+print(cwd)
+
+file_path = input("Введите путь к файлу: ")
+if os.path.exists(file_path):
+    file_dest = input('Куда скопировать?: ')
+    if os.path.exists(file_dest):
+        shutil.copy2(r'input.txt', file_dest)
+        print('File was copied')
+    else:
+        print('Destination path does not exist')
+else:
+    print('File does not exist')
+
+
